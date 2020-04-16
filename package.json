@@ -22,5 +22,9 @@
     "type": "git",
     "url": "git+https://venkatganesh16@bitbucket.org/venkatganesh16/git-test.git"
   },
-  "homepage": "https://bitbucket.org/venkatganesh16/git-test#readme"
+  "homepage": "https://bitbucket.org/venkatganesh16/git-test#readme",
+  "keywords": [
+    "Venkat",
+    "Ganesh"
+  ]
 }
