@@ -20,18 +20,18 @@ var gulp = require('gulp'),
             './css/*.css',
             './img/*.{png,jpg,gif}',
             './js/*.js'
-         ];
+        ];
       
-         browserSync.init(files, {
+        browserSync.init(files, {
             server: {
                baseDir: "./"
             }
-         });
+        });
       
-      });
+});
       
       // Default task
-      gulp.task('default', ['browser-sync'], function() {
-          gulp.start('sass:watch');
-      });
+gulp.task('default', ['browser-sync'], function() {
+    gulp.start('sass:watch');
+});
          
